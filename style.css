@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+}
+
+/* header start here */
+
+h1,h2,h3,h4,h5,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 100vh;
+    background: url("rr.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.header-part h1{
+    font-family: 'Handlee', cursive;
+    font-size: 3.5rem;
+    display: inline;
+    padding: 5px;
+    background-color: rgba(7,101,189,0.8);
+} 
+.top-header{
+    padding-top: 300px;
+}
+.navbar{
+    padding: 1% 5%;
+    background: rgba(0, 0, 0,0.3);
+}
+
+
+.navbar-icon{
+    color: white;
+    font-size: 30px;
+}
+.navbar-image img{
+    width: 60px;
+    height: auto;
+
+}
+#main-menu ul li a{
+    color: white;
+}
+.nav-link {
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: -5s;
+}
+.nav-link:hover{
+    background: #2980b9;
+    transform: scale(1.1);
+    color: white;
+}
+/* header part end here */
+
+
+
+/* features start here */
+
+.features{
+    padding: 1% 10%;
+    background-color: #e8ded2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.features-col{
+    height: 30vh;
+    border: 1px solid #2980b9;
+    border-radius:5px;
+    padding: 15px;
+    margin: 20px 0px;
+    transition: -4s;
+}
+.features-col h5{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.icon-style{
+    background-color: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 0px;
+}
+/* features end here */
+
+
+
+/* about me start here */
+
+#main-section{
+    padding: 4% 10%;
+    background-color: #e8ded2;
+    overflow: hidden;
+    cursor: pointer;
+}
+.section-title h3{
+    padding-top: 50px;
+    font-size: 36px;
+}
+
+.basic-desc p{
+    font-size: 0.9rem;
+    margin-bottom:0 ;
+    font-weight: light;
+}
+.button-1{
+    padding-bottom: 20px;
+}
+.basic-desc button {
+    border-radius: 5px;
+}
+
+.achieve-desc p{
+    font-size: 0.9rem;
+}
+.achieve-desc span{
+    font-weight: 700 !important;
+}
+.basic-desc span{
+    font-weight: 700 !important;
+
+}
+/* about me end here */
+
+
+
+/* tutorials section start here */
+
+#tutorials {
+    background-color:#a3d2ca ;
+    padding: 5% 10%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.tutorials-part h1{
+  font-size: 45px;
+}
+.card{
+    transform: .4s;
+    border: 1px solid #ff02c0;
+}
+.card:hover{
+   transform: scale(1.1);
+   box-shadow: 2px 6px 5px black;
+}
+/* card section end here */
+
+
+
+
+/* feedback start here */
+.feedback{
+    background-color: #5eaaa8;
+    color: white;
+    padding: 5%;
+    cursor: pointer;
+}
+.carousel-item{
+    font-style: italic;
+    padding: 7% 15%;
+    font-size: 1.2rem;
+}
+
+.carousel-control-prev-icon{
+    margin-top: 100px;
+}
+.carousel-control-next-icon{
+    margin-top: 100px;
+}
+
+/* feedback end here */
+
+
+
+/* contact part start here */
+.contact-part{
+    background-color: #a3d2ca;
+    padding: 5% 10%;
+    cursor: pointer;
+}
+.contact-part input{
+    border-radius: 15px;
+    color: white;
+}
+.contact-part button {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.contact-part i{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 13px;
+    }
+
+/* contact part end here */
+
+
+
+/* footer part start here */
+.footer{
+    background-color: #4d4d4d;
+    color: white;
+    padding: 1% 5%;
+    cursor: pointer;
+}
+.footer-a a{
+    color: white;
+    text-decoration: none;
+}
+/* footer part end here */
